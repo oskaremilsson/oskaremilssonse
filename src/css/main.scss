@@ -13,15 +13,18 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #f2f1ee;
+$background-color: #1d1b1b;
 $background:       url(/files/images/bg.jpg);
-$brand-color:      #2a7ae2;
+$brand-color:      #ffa00b;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $dark-blue:        #083267;
+$orange-color:     #ffa00b;
+$orange-color-light: lighten($orange-color, 40%);
+$orange-color-dark:  darken($orange-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
