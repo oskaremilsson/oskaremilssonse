@@ -1,0 +1,21 @@
+---
+layout: default
+title: Courses
+permalink: /courses/
+---
+
+<div class="home">
+
+    <h1 class="page-heading">Courses</h1>
+
+    <ul class="post-list">
+        {% for course in site.courses %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ course.url | prepend: course.baseurl }}">{{ course.title }} - {{course.credits}}hp</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>

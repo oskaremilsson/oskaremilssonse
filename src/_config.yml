@@ -10,3 +10,7 @@ github_username:  oskaremilsson
 
 # Build settings
 markdown: kramdown
+
+collections:
+  courses:
+    output: true
