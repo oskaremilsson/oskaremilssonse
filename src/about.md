@@ -1,11 +1,21 @@
 ---
-layout: page
-title: About
+layout: default
+title: Om Mig
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+{: .page-heading}
+Om Mig
+===
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+![pres-img](/files/images/pres_img.png)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Jag är en kille på 23år, kommer från Vimmerby i Småland Jag flyttade hösten 2011 till Karlskrona för att studera Spelprogrammering vid BTH, 
+men jag tog all min programmeringskunskap till webben.
+Av den anledningen byttes spelutbildningen mot webbprogrammering. 
+
+Året därefter (13/14) tog jag studieuppehåll för att jobba heltid som Studentkårsordförande för Blekinge studentkår.
+
+Läsåret 14/15 spenderades hemifrån Vimmerby med distansstudier med bland annat webbprogrammering och androidprogrammering.
+
+Jag är numera bosatt i Kalmar och studerar webbprogrammerare på Linnéuniversitet.
