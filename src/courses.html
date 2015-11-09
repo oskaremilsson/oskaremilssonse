@@ -23,9 +23,9 @@ permalink: /courses/
         {% for course in site.courses %}
             {% if course.state == "active" %}
                 <li>
-                    <h2><a class="post-link" href="{{ course.url | prepend: course.baseurl }}">
+                    <a href="{{ course.url | prepend: course.baseurl }}">
                         ({{ course.code }}) {{ course.title }} - {{course.credits}}hp
-                    </a></h2>
+                    </a>
                 </li>
             {% endif %}
         {% endfor %}
@@ -37,11 +37,9 @@ permalink: /courses/
         {% for course in site.courses %}
             {% if course.state == "done" %}
                 <li>
-                    <h2>
-                        <a class="post-link" href="{{ course.url | prepend: course.baseurl }}">
-                            ({{ course.code }}) {{ course.title }} - {{course.credits}}hp
-                        </a>
-                    </h2>
+                    <a href="{{ course.url | prepend: course.baseurl }}">
+                        ({{ course.code }}) {{ course.title }} - {{course.credits}}hp
+                    </a>
                 </li>
             {% endif %}
         {% endfor %}
