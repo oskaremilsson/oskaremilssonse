@@ -18,7 +18,7 @@ permalink: /courses/
     <h2>Högskolepoäng: {{total_credits}}hp <span class="italic-note">gäller avklarade kurser</span></h2>
 
     {% if total_active | size > 0 %}
-    <h2>Aktiva kurser ({{total_active}})</h2>
+    <h2>{{total_active}}aktiva kurser</h2>
     <ul class="post-list">
         {% for course in site.courses %}
             {% if course.state == "active" %}
@@ -32,7 +32,7 @@ permalink: /courses/
     </ul>
     {% endif %}
 
-    <h2>Avklarade kurser ({{total_done}})</h2>
+    <h2>{{total_done}}avklarade kurser</h2>
     <ul class="post-list">
         {% for course in site.courses %}
             {% if course.state == "done" %}
