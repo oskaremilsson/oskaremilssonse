@@ -3,18 +3,45 @@ layout: default
 title: Courses
 permalink: /courses/
 ---
+{% for course in site.courses %}
+    {% if course.state == "done" %}
+        {% capture total_credits %} {{ credits_count | plus: course.credits }} {% endcapture %}
+        {% capture total_done %} {{ credits_count | plus: 1 }} {% endcapture %}
+    {% elsif course.state == "active" %}
+        {% capture total_active %} {{ credits_count | plus: 1 }} {% endcapture %}
+    {% endif %}
+{% endfor %}
 
 <div class="home">
 
     <h1 class="page-heading">Courses</h1>
+    <h2>Högskolepoäng: {{total_credits}}hp</h2>
 
+    <h2>Aktiva kurser ({{total_active}})</h2>
     <ul class="post-list">
         {% for course in site.courses %}
-        <li>
-            <h2>
-                <a class="post-link" href="{{ course.url | prepend: course.baseurl }}">{{ course.title }} - {{course.credits}}hp</a>
-            </h2>
-        </li>
+            {% if course.state == "active" %}
+                <li>
+                    <h2><a class="post-link" href="{{ course.url | prepend: course.baseurl }}">
+                        {{ course.title }} - {{course.credits}}hp
+                    </a></h2>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+    <h2>Avklarade kurser ({{total_done}})</h2>
+    <ul class="post-list">
+        {% for course in site.courses %}
+            {% if course.state == "done" %}
+                <li>
+                    <h2>
+                        <a class="post-link" href="{{ course.url | prepend: course.baseurl }}">
+                        {{ course.title }} - {{course.credits}}hp
+                        </a>
+                    </h2>
+                </li>
+            {% endif %}
         {% endfor %}
     </ul>
 
