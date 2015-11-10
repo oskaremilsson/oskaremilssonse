@@ -25,7 +25,10 @@ $dark-blue:        #083267;
 $orange-color:     #ffa00b;
 $orange-color-light: lighten($orange-color, 40%);
 $orange-color-dark:  darken($orange-color, 25%);
-$accent-color:     #00a2ff;
+$accent-color:     #7eb6ef;//#00a2ff;
+$black:            #000000;
+
+$splash-button-width: 120px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
