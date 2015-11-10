@@ -12,10 +12,10 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
-
-$text-color:       #f2f1ee;
+$text-color-main:       #000000;
+$text-color:  #f2f1ee;
+$background-color-main: #dedede;
 $background-color: #1d1b1b;
-$background:       url(/files/images/bg.jpg);
 $brand-color:      #ffa00b;
 
 $grey-color:       #828282;
@@ -25,6 +25,7 @@ $dark-blue:        #083267;
 $orange-color:     #ffa00b;
 $orange-color-light: lighten($orange-color, 40%);
 $orange-color-dark:  darken($orange-color, 25%);
+$accent-color:     #00a2ff;
 
 $on-palm:          600px;
 $on-laptop:        800px;

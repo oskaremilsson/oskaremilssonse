@@ -4,8 +4,8 @@
 .site-header {
     border-top: 5px solid $orange-color;
     border-bottom: 1px solid $orange-color-dark;
-    min-height: 56px;
-
+    min-height: 80px;
+    background: $background-color;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -45,7 +45,7 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $background-color;
+        background-color: $background-color-main;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
@@ -80,6 +80,7 @@
         }
 
         .page-link {
+            color: $grey-color-dark;
             display: block;
             padding: 5px 10px;
         }
@@ -94,6 +95,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: $background-color;
 }
 
 .footer-heading {
@@ -131,6 +133,7 @@
 }
 
 .footer-col-3 {
+    color: $accent-color;
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
@@ -163,6 +166,12 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background: $background-color-main;
+    color: $text-color-main;
+}
+
+.page-content a:hover {
+    color: $orange-color;
 }
 
 .page-heading {
