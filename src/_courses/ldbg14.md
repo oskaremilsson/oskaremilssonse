@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: Digital bildbehandling
 code: ldbg14
 credits: 7.5
