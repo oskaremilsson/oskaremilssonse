@@ -40,7 +40,7 @@ På mina webbplats får dom gå igenom allting förutom att använda bilderna i 
 
 - Vad är humans.txt och hur har du konfigurerat den för din webbplats?
 ===
-Humans-txt är en fil som finns lättillgängligt för oss människor att se vilak som ligger bakom en webbplats och kan tex innehålla
+Humans-txt är en fil som finns lättillgängligt för oss människor att se vilka som ligger bakom en webbplats och kan tex innehålla
 kontaktuppgifter och vilka programvaror som används vid utvecklingen.
 På min webbplats finns det information om mitt namn, vart i världen jag bor och lite mjukvaror jag använt. Det finns även "thanks to".
 
@@ -48,7 +48,8 @@ På min webbplats finns det information om mitt namn, vart i världen jag bor oc
 ===
 Jag använde mig av disqus som rekomenderades. Det var otroligt smidigt att registrera ett konto och hämta scriptet.
 Scriptet valde jag att placera på layout-filen för en post. Jag försökte flytta ut scriptet till en fil istället men
-fick då error ILLEGAL och fick det inte att rulla. Det finns även ett litet "noscript" som visas om användaren har
+fick då error ILLEGAL och fick det inte att rulla. På sidan som visar alla posts finns ett script som visar antalet kommentarer
+på varje post. Det finns även ett litet "noscript" som visas om användaren har
 javascript avstängt så man ser att det finns innehåll man inte kan se pga. de inställningarna.
 
 {% highlight ruby %}
