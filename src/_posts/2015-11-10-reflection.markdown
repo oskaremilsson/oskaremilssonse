@@ -52,7 +52,7 @@ fick då error ILLEGAL och fick det inte att rulla. På sidan som visar alla pos
 på varje post. Det finns även ett litet "noscript" som visas om användaren har
 javascript avstängt så man ser att det finns innehåll man inte kan se pga. de inställningarna.
 
-{% highlight ruby %}
+{% highlight javascript %}
 (function() {
 var d = document, s = d.createElement('script');
 
