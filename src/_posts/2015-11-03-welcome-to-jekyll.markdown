@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The first Yekyll-post"
+title:  "The first Jekyll-post"
 date:   2015-11-03 14:07:52
 categories: jekyll update
 ---
