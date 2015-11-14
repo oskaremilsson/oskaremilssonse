@@ -4,6 +4,7 @@ title: Digital bildbehandling
 code: ldbg14
 credits: 7.5
 state: done
+school: JU
 permalink: /courses/ldbg14/
 ---
 
