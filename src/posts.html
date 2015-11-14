@@ -16,6 +16,7 @@ permalink: /posts/
             <h2>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h2>
+            <p class="post-excerpt">{{ post.content | strip_html | truncatewords: 25 }} <a href="{{ post.url | prepend: site.baseurl }}"> Läs mer >></a></p>
         </li>
         {% endfor %}
     </ul>
