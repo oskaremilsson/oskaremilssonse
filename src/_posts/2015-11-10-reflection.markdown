@@ -38,11 +38,38 @@ Robots-txt är en liten fil som sökmoterer och bottar hämtar för att ta reda 
 Man kan styra fritt om man vill att tex enbart google ska få indexera mina filer, ingen alls eller någon speciell bot man själv kör.
 På mina webbplats får dom gå igenom allting förutom att använda bilderna i bildsök på tex. google.
 
+{% highlight bash %}
+User-agent: Googlebot-Image
+Disallow: /
+{% endhighlight %}
+
 - Vad är humans.txt och hur har du konfigurerat den för din webbplats?
 ===
 Humans-txt är en fil som finns lättillgängligt för oss människor att se vilka som ligger bakom en webbplats och kan tex innehålla
 kontaktuppgifter och vilka programvaror som används vid utvecklingen.
 På min webbplats finns det information om mitt namn, vart i världen jag bor och lite mjukvaror jag använt. Det finns även "thanks to".
+
+{% highlight bash %}
+/* TEAM */
+
+Oskar Emilsson
+Email: oskaremilsson@gmail.com
+Github: oskaremilsson
+Twitter: oskaremilsson
+Location: Kalmar, Sweden
+
+/* THANKS */
+To the mentors
+Mats
+Johan
+John
+Jacob
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: HTML5, CSS3, Jekyll
+Software: Webstorm, VirtualBox, Vagrant, Git
+{% endhighlight %}
 
 - Hur implementerade du kommentarer till dina blogginlägg?
 ===
