@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: MSN-kopia webbchatt
 type: hobby
 permalink: /project/hobby_msn/
