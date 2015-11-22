@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: SPIIKs psångbok-app
 type: hobby
 permalink: /project/hobby_psngbok/
