@@ -44,3 +44,7 @@ Now, do:
 4. Fire up the IDE of your choise (Webstorm, sublime etc.) and open the files in the `src`-folder and start editing your site. When a file is saved the watch-script will auto generate the site. (including sass-files but not true for _config.yml)
 
 5. When you are done simply `ctrl+c` to abort the watch, `exit` to  exit the ssh-session and do a `vagrant halt` to stop the machine or `vagrant suspend` to only suspend it.
+
+## Up to github-pages:
+git remote add gh-pages https://github.com/username/username.github.io
+git subtree push --prefix src gh-pages master --squash
