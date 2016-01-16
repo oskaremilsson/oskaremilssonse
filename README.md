@@ -47,4 +47,5 @@ Now, do:
 
 ## Up to github-pages:
 git remote add gh-pages https://github.com/username/username.github.io
+
 git subtree push --prefix src gh-pages master --squash
