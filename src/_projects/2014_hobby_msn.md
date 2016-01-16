@@ -1,6 +1,6 @@
 ---
 layout: project
-title: MSN-kopia webbchatt
+title: 2014 - MSN-kopia webbchatt
 type: hobby
 permalink: /project/hobby_msn/
 ---
