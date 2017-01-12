@@ -2,8 +2,7 @@
 title: Oskar Emilsson
 email: oskaremilsson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Presentationswebbplats för Oskar Emilsson.
-  Student vid Linnéuniversitetet, Kalmar, Sweden.
+  Webbprogrammerande student vid Linnéuniversitetet, Kalmar, Sweden.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: oskaremilsson
