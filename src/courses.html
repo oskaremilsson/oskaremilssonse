@@ -12,6 +12,8 @@ permalink: /courses/
     {% endif %}
 {% endfor %}
 
+{% assign ordered_courses = site.courses | sort: "code" %}
+
 <div class="content">
 
     <h1 class="page-heading">{{page.title}}</h1>
@@ -20,7 +22,7 @@ permalink: /courses/
     {% if total_active | size > 0 %}
     <h2>{{total_active}}aktiva kurser</h2>
     <ul class="post-list">
-        {% for course in site.courses %}
+        {% for course in ordered_courses %}
             {% if course.state == "active" %}
                 <li>
                     <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }}</a>
@@ -35,7 +37,7 @@ permalink: /courses/
 
     <h2>{{total_done}}avklarade kurser</h2>
     <ul class="post-list">
-        {% for course in site.courses %}
+        {% for course in ordered_courses %}
             {% if course.state == "done" %}
                 <li>
                   <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }}</a>
