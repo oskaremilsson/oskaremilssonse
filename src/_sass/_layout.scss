@@ -129,6 +129,37 @@
     }
 }
 
+/**index
+*/
+.home-box-list {
+    margin: 0 auto;
+    width: 500px;
+}
+@include media-query($on-palm) {
+  .home-box-list {
+    width: auto;
+    .home-box {
+      float: none;
+      margin: 0 auto;
+    }
+  }
+
+}
+
+.home-box {
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  float: left;
+  > a img {
+    height: 80px;
+    &:hover {
+      height: 78px;
+    }
+  }
+
+}
+
 /**
  * Site footer
  */
