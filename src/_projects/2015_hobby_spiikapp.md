@@ -1,6 +1,7 @@
 ---
 layout: project
-title: 2015 - SPIIKs psångbok-app
+title: SPIIKs psångbok-app
+year: 2015
 type: hobby
 permalink: /project/hobby_psngbok/
 ---
@@ -16,4 +17,3 @@ permalink: /project/hobby_psngbok/
 Android-app för SPIIK's psångbok
 ====
 Grundkoden fanns att hämta från Blekinge studentkår men en del förändringar är gjorda för att passa nya ändamål.
-

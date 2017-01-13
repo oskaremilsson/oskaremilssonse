@@ -233,7 +233,7 @@
         border: 0px solid black;
         border-radius: 5px;
         background: $background-color;
-
+        position: relative;
 
         a {
           color: $background-color-main;
@@ -244,6 +244,47 @@
         }
     }
 }
+
+.course-credits {
+    right: 5px;
+    bottom: 0px;
+    position: absolute;
+    font-weight: bold;
+    color: $orange-color;
+}
+
+.course-school {
+    left: 5px;
+    bottom: 0px;
+    position: absolute;
+    font-weight: bold;
+    color: $accent-color;
+}
+
+.course-code {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60px;
+    margin: 0 0 0 -30px;
+}
+
+.project-year {
+    right: 5px;
+    bottom: 0px;
+    position: absolute;
+    font-weight: bold;
+    color: $orange-color;
+}
+
+.project-comments {
+    left: 5px;
+    bottom: 0px;
+    position: absolute;
+    font-weight: bold;
+    color: $accent-color;
+}
+
 
 .post-meta {
     font-size: $small-font-size;

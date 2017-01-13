@@ -23,7 +23,10 @@ permalink: /courses/
         {% for course in site.courses %}
             {% if course.state == "active" %}
                 <li>
-                    <a href="{{ course.url | prepend: course.baseurl }}">{{course.school}}: {{ course.title }} ({{ course.code }}) {{course.credits}}hp</a>
+                    <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }}</a>
+                    <div class="course-school">{{course.school}}</div>
+                    <div class="course-code"><a href="{{ course.url | prepend: course.baseurl }}">{{course.code}}</a></div>
+                    <div class="course-credits">{{course.credits}}hp</div>
                 </li>
             {% endif %}
         {% endfor %}
@@ -35,7 +38,10 @@ permalink: /courses/
         {% for course in site.courses %}
             {% if course.state == "done" %}
                 <li>
-                    <a href="{{ course.url | prepend: course.baseurl }}">{{course.school}}: {{ course.title }} ({{ course.code }}) {{course.credits}}hp</a>
+                  <a href="{{ course.url | prepend: course.baseurl }}">{{ course.title }}</a>
+                  <div class="course-school">{{course.school}}</div>
+                  <div class="course-code"><a href="{{ course.url | prepend: course.baseurl }}">{{course.code}}</a></div>
+                  <div class="course-credits">{{course.credits}}hp</div>
                 </li>
             {% endif %}
         {% endfor %}

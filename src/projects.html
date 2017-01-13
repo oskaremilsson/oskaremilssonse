@@ -13,10 +13,11 @@ permalink: /projects/
         {% for project in site.projects %}
             {% if project.type == "hobby" %}
             <li>
-                <a href="{{ project.url | prepend: project.baseurl }}">
-                    {{ project.title }}
-                </a>
-                <span class="italic-note"> | <a href="{{ project.url | prepend: project.baseurl }}#disqus_thread"></a></span>
+              <a href="{{ project.url | prepend: project.baseurl }}">
+                  {{ project.title }}
+              </a>
+              <div class="project-comments"><span class="italic-note"><a href="{{ project.url | prepend: project.baseurl }}#disqus_thread"></a></span></div>
+              <div class="project-year">{{project.year}}</div>
             </li>
             {% endif %}
         {% endfor %}
@@ -30,7 +31,8 @@ permalink: /projects/
                 <a href="{{ project.url | prepend: project.baseurl }}">
                     {{ project.title }}
                 </a>
-                <span class="italic-note"> | <a href="{{ project.url | prepend: project.baseurl }}#disqus_thread"></a></span>
+                <div class="project-comments"><span class="italic-note"><a href="{{ project.url | prepend: project.baseurl }}#disqus_thread"></a></span></div>
+                <div class="project-year">{{project.year}}</div>
             </li>
             {% endif %}
         {% endfor %}
