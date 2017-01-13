@@ -236,12 +236,21 @@
         position: relative;
 
         a {
-          color: $background-color-main;
+              color: $background-color-main;
 
           &:visited {
               color: darken($background-color-main, 15%);
           }
         }
+    }
+
+    @include media-query($on-palm) {
+          > li {
+              margin-right: auto;
+              margin-left: auto;
+              display: block;
+              float: none;
+          }
     }
 }
 
