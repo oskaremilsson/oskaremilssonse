@@ -358,6 +358,13 @@
     }
 }
 
+.me-img {
+    width: 50%;
+    @include media-query($on-palm) {
+        width: 100%;
+    }
+}
+
 /**
  * Posts
  */
