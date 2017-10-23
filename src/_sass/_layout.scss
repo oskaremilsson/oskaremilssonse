@@ -351,6 +351,13 @@
     border: 1px solid $background-color;
 }
 
+.screen-img {
+    width: 24%;
+    @include media-query($on-palm) {
+        width: 100%;
+    }
+}
+
 /**
  * Posts
  */
